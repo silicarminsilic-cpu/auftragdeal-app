@@ -1,0 +1,17 @@
+{
+  "base_url": "",
+  "mail_from": "anfrage@auftragdeal.ch",
+  "notify": "anfrage@auftragdeal.ch",
+  "allowed_origins": ["https://auftragdeal.ch", "https://www.auftragdeal.ch"],
+  "setup_code": "SETUP-405f720f1f944076",
+  "free_leads": 10,
+  "lead_price": 29,
+  "vat": 8.1,
+  "stripe_links": [
+    {"amount": 0, "url": "https://buy.stripe.com/7sY00k3Li6bO0Y06OBgYU00"},
+    {"amount": 0, "url": "https://buy.stripe.com/cNi8wQa9G7fS6ikc8VgYU01"},
+    {"amount": 0, "url": "https://buy.stripe.com/aFaeVedlS6bO8qs4GtgYU02"},
+    {"amount": 0, "url": "https://buy.stripe.com/14AdRa4Pm57KfSU1uhgYU03"},
+    {"amount": 0, "url": "https://buy.stripe.com/5kQ7sMa9GfMo4aceh3gYU04"}
+  ]
+}

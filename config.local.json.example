@@ -1,0 +1,9 @@
+{
+  "smtp_host": "mail.infomaniak.com",
+  "smtp_port": 465,
+  "smtp_secure": true,
+  "smtp_user": "anfrage@auftragdeal.ch",
+  "smtp_pass": "HIER-MAILBOX-PASSWORT",
+  "stripe_webhook_secret": "whsec_...",
+  "base_url": "https://app.auftragdeal.ch"
+}

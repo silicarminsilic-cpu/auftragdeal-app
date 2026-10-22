@@ -1,0 +1,11 @@
+{
+  "name": "auftragdeal-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "auftragdeal.ch – Admin, Partner-Portal, Lead-Markt",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=20" },
+  "dependencies": { "express": "^4.21.2", "nodemailer": "^6.9.16" },
+  "optionalDependencies": { "better-sqlite3": "^11.7.0" }
+}
