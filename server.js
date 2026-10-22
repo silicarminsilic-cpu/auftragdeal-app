@@ -8,7 +8,7 @@ const U=require('./lib/ui');const {layout,head}=U;
 const pub=require('./lib/pub'),admin=require('./lib/admin'),partner=require('./lib/partner'),customer=require('./lib/customer'),market=require('./lib/market'),api=require('./lib/api');
 
 const PAGES=Object.assign({},pub.pages,admin.pages,partner.pages,customer.pages,market.pages);
-const ROUTES=['home','login','logout','signup','setpw','account','a_dash','a_companies','a_company','a_leads','a_lead','a_users','a_log','a_export','register','forgot','verify','resend','a_claims','a_finance','a_settings','a_backup','p_dash','p_market','p_leads','p_wallet','p_clients','p_client','p_quotes','p_invoices','p_doc','p_docedit','p_profile','c_dash','c_new'];
+const ROUTES=['home','login','logout','signup','setpw','account','a_dash','a_companies','a_company','a_leads','a_lead','a_users','a_log','a_export','register','forgot','verify','resend','a_claims','a_finance','a_settings','a_backup','a_import','p_dash','p_market','p_leads','p_wallet','p_clients','p_client','p_quotes','p_invoices','p_doc','p_docedit','p_profile','c_dash','c_new'];
 const COOKIE='adsess',TTL=30*86400;
 
 const app=express();
