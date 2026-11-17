@@ -5,10 +5,10 @@ const express=require('express');
 const K=require('./lib/core');
 const {h,q,one,val,int,str,now,time,cfg,randHex,go,flash,me,post,csrf_field,check_csrf,hashPw,emailok,safeEq,Halt,C,setCtx,regen}=K;
 const U=require('./lib/ui');const {layout,head}=U;
-const pub=require('./lib/pub'),admin=require('./lib/admin'),partner=require('./lib/partner'),customer=require('./lib/customer'),market=require('./lib/market'),api=require('./lib/api');
+const pub=require('./lib/pub'),admin=require('./lib/admin'),partner=require('./lib/partner'),customer=require('./lib/customer'),market=require('./lib/market'),api=require('./lib/api'),callagent=require('./lib/callagent');
 
-const PAGES=Object.assign({},pub.pages,admin.pages,partner.pages,customer.pages,market.pages);
-const ROUTES=['home','login','logout','signup','setpw','account','a_dash','a_companies','a_company','a_leads','a_lead','a_users','a_log','a_export','register','forgot','verify','resend','a_claims','a_finance','a_settings','a_backup','a_import','p_dash','p_market','p_leads','p_wallet','p_clients','p_client','p_quotes','p_invoices','p_doc','p_docedit','p_profile','c_dash','c_new'];
+const PAGES=Object.assign({},pub.pages,callagent.pages,admin.pages,partner.pages,customer.pages,market.pages);
+const ROUTES=['home','login','logout','signup','setpw','account','a_dash','a_companies','a_company','a_leads','a_lead','a_users','a_log','a_export','register','forgot','verify','resend','a_claims','a_finance','a_settings','a_backup','a_import','a_mail','a_calls','ca_list','ca_firm','magic','take','p_dash','p_market','p_leads','p_wallet','p_clients','p_client','p_quotes','p_invoices','p_doc','p_docedit','p_profile','c_dash','c_new'];
 const COOKIE='adsess',TTL=30*86400;
 
 const app=express();
